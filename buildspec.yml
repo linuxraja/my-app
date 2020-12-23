@@ -14,6 +14,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/my-app-$CODEBUILD_BUILD_NUMBER.jar
-    - appspec.yml
+    - my-app-$CODEBUILD_BUILD_NUMBER.jar
   discard-paths: yes
