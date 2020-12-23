@@ -14,5 +14,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - my-app-$CODEBUILD_BUILD_NUMBER.jar
+    - my-app-*.jar
   discard-paths: yes
